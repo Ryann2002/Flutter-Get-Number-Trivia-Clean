@@ -1,4 +1,4 @@
-# number_trivia
+# A project based on https://resocoder.com/category/tutorials/flutter/tdd-clean-architecture/
 
 A new Flutter project.
 
