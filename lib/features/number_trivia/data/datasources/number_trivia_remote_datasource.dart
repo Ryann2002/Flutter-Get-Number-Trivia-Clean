@@ -24,7 +24,6 @@ class NumberTriviaRemoteDataSourceImpl implements NumberTriviaRemoteDataSource {
 
   @override
   Future<NumberTriviaModel> getConcreteNumberTrivia(int? number) async {
-    debugPrint(client.options.headers.toString());
     return getTriviaFromURl("http://numbersapi.com/$number?json");
   }
 

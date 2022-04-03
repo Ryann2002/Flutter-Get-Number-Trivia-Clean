@@ -29,7 +29,7 @@ void main() {
   void setUpMockHttpClientSucess200({required String path}) {
     when(() => mockDio.get(any())).thenAnswer((invocation) async => Response(
         statusCode: 200,
-        data: fixture("trivia.json"),
+        data: json.decode(fixture("trivia.json")),
         requestOptions: RequestOptions(path: path)));
   }
 

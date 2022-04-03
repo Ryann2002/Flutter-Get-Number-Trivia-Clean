@@ -24,6 +24,7 @@ class TriviaDisplay extends StatelessWidget {
               child: SingleChildScrollView(
                 child: Text(
                   numberTrivia.text,
+                  textAlign: TextAlign.center,
                   style: const TextStyle(fontSize: 25.0),
                 ),
               ),
